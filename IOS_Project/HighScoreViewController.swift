@@ -10,10 +10,13 @@ import UIKit
 
 class HighScoreViewController: UIViewController {
 
+    @IBOutlet weak var backBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let arr: [UIButton] = [backBtn];
+        ViewController.applyRounded(arr: arr);
     }
 
     override func didReceiveMemoryWarning() {

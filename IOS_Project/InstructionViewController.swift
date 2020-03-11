@@ -10,10 +10,14 @@ import UIKit
 
 class InstructionViewController: UIViewController {
 
+    @IBOutlet weak var backbtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let arr: [UIButton] = [backbtn];
+        ViewController.applyRounded(arr: arr);
     }
 
     override func didReceiveMemoryWarning() {

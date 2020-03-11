@@ -92,6 +92,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="AboutUs" destination="o0V-zf-FiC" id="KkH-XK-szw"/>
+                        <outlet property="Highscores" destination="ZEI-A6-N6C" id="qfR-wi-e71"/>
+                        <outlet property="InstructionOutlet" destination="bnF-rO-Pdr" id="pCU-oO-l2i"/>
+                        <outlet property="playOutlet" destination="7AC-Yx-Vdg" id="EBb-rQ-0f5"/>
                         <segue destination="Udp-XS-4rm" kind="show" identifier="aboutUsSeg" id="s9A-8p-4au"/>
                         <segue destination="IIk-8A-8N4" kind="show" identifier="instructionSeg" id="e7e-0h-MSf"/>
                         <segue destination="zjV-cS-0ie" kind="show" identifier="arcadeSeg" id="knm-48-XG2"/>
@@ -184,6 +188,7 @@
                         <viewLayoutGuide key="safeArea" id="eX4-of-wV8"/>
                     </view>
                     <connections>
+                        <outlet property="backBtn" destination="jEN-pN-KVC" id="P4P-d2-OWj"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="backToMain" id="r7B-xN-EAT"/>
                     </connections>
                 </viewController>
@@ -255,7 +260,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTT-eU-qoP">
-                                <rect key="frame" x="153" y="626" width="69" height="21"/>
+                                <rect key="frame" x="153" y="626" width="69" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
@@ -356,6 +361,7 @@
                         <viewLayoutGuide key="safeArea" id="dpR-io-RUN"/>
                     </view>
                     <connections>
+                        <outlet property="backbtn" destination="mLr-Dk-pio" id="XXy-84-kJU"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="backToMain" id="Rsu-b9-ItW"/>
                     </connections>
                 </viewController>
@@ -399,6 +405,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101091788" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfx-rh-Nx7">
+                                <rect key="frame" x="148" y="367" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aldrin John Jacildo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ik-4o-4eg">
                                 <rect key="frame" x="114" y="285" width="158" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -414,7 +427,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9N0-gb-jIc">
-                                <rect key="frame" x="119" y="421" width="150" height="40"/>
+                                <rect key="frame" x="117" y="424" width="150" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
@@ -426,18 +439,12 @@
                                     <action selector="backBtn:" destination="Udp-XS-4rm" eventType="touchUpInside" id="0gM-Vw-j6a"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101091788" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfx-rh-Nx7">
-                                <rect key="frame" x="148" y="367" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.82259732080000003" green="0.83647872860000005" blue="0.85850469559999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="QqS-c4-EfE"/>
                     </view>
                     <connections>
+                        <outlet property="backBtn" destination="9N0-gb-jIc" id="Dg4-ck-nYt"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="backToMain" id="NL3-mi-itR"/>
                     </connections>
                 </viewController>
@@ -447,6 +454,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Mz3-Lu-Msu"/>
+        <segue reference="r7B-xN-EAT"/>
     </inferredMetricsTieBreakers>
 </document>
