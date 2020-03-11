@@ -15,6 +15,11 @@
 		C9E1B0F124194C24002D68D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E1B0EF24194C24002D68D1 /* LaunchScreen.storyboard */; };
 		C9E1B0FC24194C24002D68D1 /* IOS_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B0FB24194C24002D68D1 /* IOS_ProjectTests.swift */; };
 		C9E1B10724194C24002D68D1 /* IOS_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B10624194C24002D68D1 /* IOS_ProjectUITests.swift */; };
+		C9E1B1152419512C002D68D1 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B1142419512C002D68D1 /* AboutUsViewController.swift */; };
+		C9E1B11924195AD3002D68D1 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B11824195AD3002D68D1 /* InstructionViewController.swift */; };
+		C9E1B11B24195CDF002D68D1 /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B11A24195CDF002D68D1 /* ArcadeViewController.swift */; };
+		C9E1B11D24196000002D68D1 /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B11C24196000002D68D1 /* HighScoreViewController.swift */; };
+		C9E1B11F24196126002D68D1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B11E24196126002D68D1 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		C9E1B10224194C24002D68D1 /* IOS_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E1B10624194C24002D68D1 /* IOS_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_ProjectUITests.swift; sourceTree = "<group>"; };
 		C9E1B10824194C24002D68D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E1B1142419512C002D68D1 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		C9E1B11824195AD3002D68D1 /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		C9E1B11A24195CDF002D68D1 /* ArcadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
+		C9E1B11C24196000002D68D1 /* HighScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
+		C9E1B11E24196126002D68D1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				C9E1B0EF24194C24002D68D1 /* LaunchScreen.storyboard */,
 				C9E1B0F224194C24002D68D1 /* Info.plist */,
 				C9E1B0EA24194C1C002D68D1 /* IOS_Project.xcdatamodeld */,
+				C9E1B1142419512C002D68D1 /* AboutUsViewController.swift */,
+				C9E1B11824195AD3002D68D1 /* InstructionViewController.swift */,
+				C9E1B11A24195CDF002D68D1 /* ArcadeViewController.swift */,
+				C9E1B11C24196000002D68D1 /* HighScoreViewController.swift */,
+				C9E1B11E24196126002D68D1 /* Player.swift */,
 			);
 			path = IOS_Project;
 			sourceTree = "<group>";
@@ -259,6 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E1B11924195AD3002D68D1 /* InstructionViewController.swift in Sources */,
+				C9E1B11D24196000002D68D1 /* HighScoreViewController.swift in Sources */,
+				C9E1B1152419512C002D68D1 /* AboutUsViewController.swift in Sources */,
+				C9E1B11B24195CDF002D68D1 /* ArcadeViewController.swift in Sources */,
+				C9E1B11F24196126002D68D1 /* Player.swift in Sources */,
 				C9E1B0E624194C1C002D68D1 /* ViewController.swift in Sources */,
 				C9E1B0E424194C1C002D68D1 /* AppDelegate.swift in Sources */,
 				C9E1B0EC24194C1C002D68D1 /* IOS_Project.xcdatamodeld in Sources */,

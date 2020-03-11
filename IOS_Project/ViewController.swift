@@ -20,6 +20,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func AboutUsBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "aboutUsSeg", sender: self);
+    }
+    
+    @IBAction func instructionBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "instructionSeg", sender: self);
+    }
+    
+    @IBAction func ArcadeBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "arcadeSeg", sender: self);
+    }
+    
+    @IBAction func highScoreBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "highScoreSeg", sender: self);
+    }
+    
 }
 
