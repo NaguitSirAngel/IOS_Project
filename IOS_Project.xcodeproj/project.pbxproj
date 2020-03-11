@@ -20,6 +20,8 @@
 		C9E1B11B24195CDF002D68D1 /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B11A24195CDF002D68D1 /* ArcadeViewController.swift */; };
 		C9E1B11D24196000002D68D1 /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B11C24196000002D68D1 /* HighScoreViewController.swift */; };
 		C9E1B11F24196126002D68D1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B11E24196126002D68D1 /* Player.swift */; };
+		C9E1B121241968F7002D68D1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B120241968F7002D68D1 /* Game.swift */; };
+		C9E1B12324196973002D68D1 /* Leaderboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B12224196973002D68D1 /* Leaderboards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		C9E1B11A24195CDF002D68D1 /* ArcadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
 		C9E1B11C24196000002D68D1 /* HighScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
 		C9E1B11E24196126002D68D1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C9E1B120241968F7002D68D1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C9E1B12224196973002D68D1 /* Leaderboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				C9E1B11A24195CDF002D68D1 /* ArcadeViewController.swift */,
 				C9E1B11C24196000002D68D1 /* HighScoreViewController.swift */,
 				C9E1B11E24196126002D68D1 /* Player.swift */,
+				C9E1B120241968F7002D68D1 /* Game.swift */,
+				C9E1B12224196973002D68D1 /* Leaderboards.swift */,
 			);
 			path = IOS_Project;
 			sourceTree = "<group>";
@@ -275,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E1B11924195AD3002D68D1 /* InstructionViewController.swift in Sources */,
+				C9E1B121241968F7002D68D1 /* Game.swift in Sources */,
 				C9E1B11D24196000002D68D1 /* HighScoreViewController.swift in Sources */,
+				C9E1B12324196973002D68D1 /* Leaderboards.swift in Sources */,
 				C9E1B1152419512C002D68D1 /* AboutUsViewController.swift in Sources */,
 				C9E1B11B24195CDF002D68D1 /* ArcadeViewController.swift in Sources */,
 				C9E1B11F24196126002D68D1 /* Player.swift in Sources */,
