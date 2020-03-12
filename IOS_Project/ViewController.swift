@@ -58,7 +58,6 @@ class ViewController: UIViewController {
         for var i in arr{
             i.layer.cornerRadius = 20;
             i.clipsToBounds = true;
-            
         }
         
         
