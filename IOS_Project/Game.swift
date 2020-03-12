@@ -11,6 +11,7 @@ class Game {
     
     private var player : Player;
     private var score: Int;
+    
     init(player : Player, score: Int) {
         self.player = player;
         self.score = score;
