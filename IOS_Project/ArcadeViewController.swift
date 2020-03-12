@@ -59,7 +59,7 @@ class ArcadeViewController: UIViewController {
         self.gameTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (timer) in
             if self.start_time == 0 {
                 self.gameTimer?.invalidate();
-                self.performSegue(withIdentifier: "saveGame", sender: self);
+                //self.performSegue(withIdentifier: "saveGame", sender: self);
             }
             self.lblTime.text = String(self.start_time);
             self.start_time -= 1;
