@@ -13,7 +13,7 @@ class ArcadeViewController: UIViewController {
     // VARIABLES
     var player: Player = Player(name: "");
     var score = 0;
-    var start_time = 10;
+    var start_time = 60;
     var gameTimer: Timer?;
     var opponentMove = "";
     var playerMove = "";
